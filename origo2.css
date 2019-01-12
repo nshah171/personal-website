@@ -19,7 +19,7 @@ h1,h2,h3 {color:#d06060; font-weight:400; line-height:1.2em; font-family:'Econom
 
 /* Main layout container */
 #layout {margin:4% auto 0; width:100%; max-width:960px;}
-body.wider #layout {margin:4% auto 0; width:auto; max-width:1200px;}
+body.wider #layout {margin:4% auto 0; width:100%; max-width:1200px;}
 
 /* Footer */
 #footer {background:#0a0a0a url(images/insidebg.jpg) top center no-repeat;}
@@ -31,7 +31,7 @@ body.wider #layout {margin:4% auto 0; width:auto; max-width:1200px;}
 /* Grid classes, fixed width, 960px with 12 columns */
 .col {float:left; margin:0 1%; overflow:hidden; float:left; display:inline;}
 .col img {max-width:100%;}
-.row {width:auto; margin:2% auto 0; overflow:hidden;}
+.row {width:100%; margin:2% auto 0; overflow:hidden;}
 .row .row {margin:0 -1%; width:auto; display:inline-block;}
 .c1 {width:6.25%;}
 .c2 {width:14.58%;}
@@ -47,7 +47,7 @@ body.wider #layout {margin:4% auto 0; width:auto; max-width:1200px;}
 .c12 {width:97.91%;}
 
 /* Grid classes, fixed width, 1200px with 12 columns - add class="wider" to the <body> element to use this */
-body.wider .row {width:auto; max-width:1200px;}
+body.wider .row {max-width:100%;}
 body.wider .c1 {width:6.25%;}
 body.wider .c2 {width:14.58%;}
 body.wider .c3 {width:22.91%;}
