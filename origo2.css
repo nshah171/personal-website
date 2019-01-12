@@ -6,7 +6,7 @@ For more information, see http://andreasviklund.com/templates/origo/
 *{margin:0; padding:0;}
 
 /* General styles */
-body {background:#0a0a0a url(images/background.jpg) top center no-repeat; color:#ccc; font:110% 'Economica',Tahoma,sans-serif; line-height:1.3em; width:auto; max-width:960px;}
+body {background:#0a0a0a url(images/background.jpg) top center no-repeat; color:#ccc; font:110% 'Economica',Tahoma,sans-serif; line-height:1.3em; width:100%; max-width:960px;}
 a {color:#d06060; text-decoration:none; font-weight:400;}
 a:hover {text-decoration:underline;}
 p,ul,ol,dl {margin:0 0 15px 0; line-height:1.5em;}
@@ -109,7 +109,7 @@ body.orange h1, body.orange h2, body.orange h3 {color:#e58c24;}
 
 /* Freestyle01 additions */
 body.freestyle01 {font:84% Tahoma,sans-serif;}
-body.freestyle01 #layout {margin:2% auto 0; width:auto; max-width:960px;}
+body.freestyle01 #layout {margin:2% auto 0; width:100%;}
 body.freestyle01 h1, body.freestyle01 h2, body.freestyle01 h3, body.freestyle01 ul.menu li a
 {font-family: 'Dosis', sans-serif; text-transform:uppercase;}
 body.freestyle01 p.slogan {font-family: 'Dosis', sans-serif; text-transform:uppercase; margin-top:1%; font-size:1.4em;}
