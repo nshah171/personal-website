@@ -6,7 +6,7 @@ For more information, see http://andreasviklund.com/templates/origo/
 *{margin:0; padding:0;}
 
 /* General styles */
-body {background:#0a0a0a url(images/background.jpg) top center no-repeat; color:#ccc; font:110% 'Economica',Tahoma,sans-serif; line-height:1.3em; height:100%; width:100%; max-width:960px;}
+body {background:#0a0a0a url(images/background.jpg) top center no-repeat; color:#ccc; font:110% 'Economica',Tahoma,sans-serif; line-height:1.3em; width:100%; max-width:960px;}
 a {color:#d06060; text-decoration:none; font-weight:400;}
 a:hover {text-decoration:underline;}
 p,ul,ol,dl {margin:0 0 15px 0; line-height:1.5em;}
